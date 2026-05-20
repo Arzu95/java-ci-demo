@@ -16,7 +16,7 @@ jobs:
       - name: Java Setup 
         uses: actions/setup-java@v4
         with: 
-          java_version: '17'
+          java-version: '17'
           distribution: 'oracle'
           cache: 'maven'
 
