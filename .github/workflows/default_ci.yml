@@ -22,6 +22,7 @@ jobs:
 
       - name: Build and test Maven project
         run: mvn --batch-mode verify
+        working-directory: ./calculator-master
 
       - name: Run Insider
         uses: insidersec/insider-action@v0
