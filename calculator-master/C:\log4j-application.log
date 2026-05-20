@@ -1,0 +1,15 @@
+2026-05-20 17:20:59 INFO  App:69 - calculate method begin
+2026-05-20 17:20:59 INFO  App:116 - fetchTypeAndExpressionsFromString method begin
+2026-05-20 17:20:59 DEBUG App:130 - add operation
+2026-05-20 17:20:59 INFO  App:173 - getTwoSubexpression method begin
+2026-05-20 17:20:59 DEBUG App:191 - 5
+2026-05-20 17:20:59 DEBUG App:193 - 5
+2026-05-20 17:20:59 INFO  App:166 - fetchTypeAndExpressionsFromString method end
+2026-05-20 17:20:59 INFO  App:69 - calculate method begin
+2026-05-20 17:20:59 INFO  App:116 - fetchTypeAndExpressionsFromString method begin
+2026-05-20 17:20:59 DEBUG App:121 - only expression
+2026-05-20 17:20:59 INFO  App:166 - fetchTypeAndExpressionsFromString method end
+2026-05-20 17:20:59 INFO  App:69 - calculate method begin
+2026-05-20 17:20:59 INFO  App:116 - fetchTypeAndExpressionsFromString method begin
+2026-05-20 17:20:59 DEBUG App:121 - only expression
+2026-05-20 17:20:59 INFO  App:166 - fetchTypeAndExpressionsFromString method end

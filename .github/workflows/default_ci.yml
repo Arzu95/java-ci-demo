@@ -1,0 +1,32 @@
+name: main ci pipeline
+on: 
+  push: 
+    branches: 
+    - main
+
+jobs: 
+  building-testing-maven:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: repository checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Java Setup 
+        uses: actions/java-setup@v5
+        with: 
+          java_version: '17'
+          distribution: 'oracle'
+          cache: 'maven'
+
+      - name: Build and test Maven project
+        run: mvn --batch-mode verify
+
+      - name: Run Insider
+        uses: insidersec/insider-action@v0
+        with:
+            technology: java
+            target: .
+
+          
